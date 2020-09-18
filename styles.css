@@ -1,6 +1,6 @@
-.text {
+.main-content__description, .main-content__button, .menu {
   font-family: Roboto
 }
-.title {
+.main-content__title {
   font-family: PT Serif;
 }
