@@ -11,31 +11,16 @@
   margin: 0;
   width: 567px;
   height: 255px;
-  border: dashed 1px red;
-}
+  }
 
 body {
   margin: 0;
-  border: dashed 1px red;
 }
 
 .wrapper {
   margin: auto;
   width: 80%;
-  border: dashed 1px red;
-}
-
-.header,
-.main-section,
-.logo,
-.menu,
-.menu__item,
-.main-content,
-.main-content__description,
-.main-content__button,
-.image-content {
-  border: dashed 1px red;
-}
+  }
 
 .logo,
 .menu {
