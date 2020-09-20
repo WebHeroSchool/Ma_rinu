@@ -23,7 +23,12 @@ body {
 .main-section,
 .logo,
 .menu,
-.menu__item {
+.menu__item,
+.main-content,
+.main-content__title,
+.main-content__description,
+.main-content__button,
+.image-content {
   border: dashed 1px red;
 }
 
