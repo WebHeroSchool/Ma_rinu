@@ -6,10 +6,17 @@
 
 .main-content__title {
   font-family: "PT Serif", serif;
+  font-size: 66px;
   padding: 246px 0 40px 0;
   margin: 0;
   width: 567px;
   height: 255px;
+  border: dashed 1px red;
+}
+
+.main-content__title-span {
+  font-family: "PT Serif", serif;
+  font-size: 66px;
 }
 
 body {
@@ -29,7 +36,6 @@ body {
 .menu,
 .menu__item,
 .main-content,
-.main-content__title,
 .main-content__description,
 .main-content__button,
 .image-content {
@@ -57,6 +63,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
+  font-size: 18px;
 }
 
 .menu__item:last-child {
@@ -73,9 +80,11 @@ body {
   margin: 0;
   width: 455px;
   height: 52px;
+  font-size: 22px;
 }
 
 .main-content__button {
   width: 271px;
   height: 57px;
+  font-size: 18px;
 }
