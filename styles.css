@@ -77,11 +77,15 @@ body {
   position: relative;
 }
 
+.menu__item:hover {
+  opacity: 0.7;
+}
+
 .menu__item:last-child {
   margin-right: 0;
 }
 
-.menu__item:hover:after {
+.menu__item:hover::after {
   position: absolute;
   left: 0;
   display: block;
