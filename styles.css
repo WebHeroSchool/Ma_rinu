@@ -50,17 +50,17 @@ body {
   width: 28px;
   height: 28px;
   border-radius: 50%;
-  opacity: .7;
+  opacity: 0.7;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
 }
 
 .logo__circle_color_dark-blue {
-  background: #0056EC;
+  background: #0056ec;
 }
 
 .menu {
@@ -70,7 +70,7 @@ body {
 
 .menu__item {
   padding: 0 13px;
-  font: 18px/21px ;
+  font: 18px/21px;
   font-weight: 500;
 }
 
