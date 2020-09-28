@@ -136,7 +136,7 @@ body {
 }
 
 @media (max-width: 1366px) {
-  .menu__item{
+  .menu__item {
     font-family: "roboto", arial, helvetica, sans-serif;
     font-weight: 500;
     font-size: 14px;
