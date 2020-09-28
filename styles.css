@@ -10,7 +10,6 @@
   font-size: 66px;
   line-height: 87px;
   font-style: normal;
-  padding-top: 206px;
   margin: 0 0 40px 0;
 }
 
@@ -19,11 +18,13 @@
 }
 
 .main-content {
-  padding-top: 100px;
+  padding-top: 143px;
   padding-right: 63%;
-  background: (url'img/frame.svg');
+  padding-bottom: 181px;
+  background: url('img/frame.svg');
   background-repeat: no-repeat;
   background-position: center right;
+  background-size: contain;
 }
 
 body {
@@ -49,6 +50,9 @@ body {
 .logo {
   position: relative;
   padding-left: 44px;
+}
+
+.logo__text {
   font-family: "pt_serif", arial, helvetica, sans-serif;
   font-weight: bold;
   font-size: 24px;
@@ -111,8 +115,6 @@ body {
 
 .main-content__description {
   margin: 0 0 41px 0;
-  width: 455px;
-  height: 52px;
   font-style: normal;
   font-weight: normal;
   font-size: 22px;
@@ -134,8 +136,9 @@ body {
   opacity: 0.8;
 }
 
-@media (max-width: 375px) {
-  .menu__item {
+@media (max-width: 768px) {
+  .menu__item,
+  .logo__text {
     display: none;
   }
 
@@ -153,35 +156,57 @@ body {
     margin-bottom: 28px;
   }
 
-  .image-content {
-    background-position: center top;
-    width: 280px;
-    height: 239px;
-    padding: 0;
-    margin-bottom: 32px;
-  }
-
   .main-content {
-    width: 71%;
+    padding: 74% 0 0;
+    background-size: 74%;
+    background-position: top center;
+    text-align: center;
   }
 
   .main-content__title {
     margin-bottom: 44px;
-    padding: 0;
     font-family: "pt_serif", arial, helvetica, sans-serif;
     font-weight: bold;
     font-size: 30px;
     line-height: 40px;
-    text-align: center;
   }
 
   .main-content__description {
-    margin-bottom: 25px;
     font-family: "Roboto", arial, helvetica, sans-serif;
     font-size: 16px;
     line-height: 19px;
     font-weight: 500;
-    text-align: center;
+  }
+
+  .main-content__button {
+    margin-top: 25px;
+    font-family: "Roboto", arial, helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
+@media (min-width 768px max-width: 1170px) {
+  .main__content {
+    padding-top: 100px;
+    background-position: top right;
+  }
+
+  .main-content__title {
+    margin-bottom: 40px;
+    font-family: "pt_serif", arial, helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 66px;
+  }
+
+  .main-content__description {
+    margin-bottom: 41px;
+    font-family: "Roboto", arial, helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 500;
   }
 
   .main-content__button {
@@ -189,6 +214,5 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
-    text-align: center;
   }
 }
