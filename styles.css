@@ -117,7 +117,7 @@ body {
   margin: 0 0 41px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 140%;
   line-height: 26px;
 }
 
@@ -128,7 +128,7 @@ body {
   background: #0056ec;
   border-radius: 4px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 110%;
   line-height: 21px;
 }
 
@@ -159,14 +159,14 @@ body {
     margin-bottom: 40px;
     font-family: "pt_serif", arial, helvetica, sans-serif;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 310%;
     line-height: 66px;
   }
 
   .main-content__description {
     margin-bottom: 41px;
     font-family: "roboto", arial, helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 110%;
     line-height: 21px;
     font-weight: 500;
   }
@@ -174,7 +174,7 @@ body {
   .main-content__button {
     font-family: "roboto", arial, helvetica, sans-serif;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 88%;
     line-height: 16px;
   }
 }
