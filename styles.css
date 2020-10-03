@@ -1,4 +1,4 @@
-.main__description,
+.main-content__description,
 .main-content__button,
 .menu__item {
   font-family: "roboto", arial, helvetica, sans-serif;
@@ -95,10 +95,6 @@ body {
   position: relative;
 }
 
-.menu__item:hover {
-  opacity: 0.7;
-}
-
 .menu__item:last-child {
   margin-right: 0;
 }
@@ -130,10 +126,12 @@ body {
   font-weight: 500;
   font-size: 110%;
   line-height: 21px;
+  transition: 0.3s;
 }
 
 .main-content__button:hover {
-  opacity: 0.8;
+  padding: 20px 26px;
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1366px) {
@@ -191,7 +189,7 @@ body {
     height: 17px;
     background-position: center right;
     padding-top: 32px;
-    padding-right: 24;
+    padding-right: 24px;
     background-repeat: no-repeat;
   }
 
