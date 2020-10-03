@@ -131,7 +131,7 @@ body {
 
 .main-content__button:hover {
   padding: 20px 26px;
-  box-shadow: 0 15px 15px -10px rgba(0,0,0, 0.5);
+  box-shadow: 0 15px 15px -10px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 1366px) {
