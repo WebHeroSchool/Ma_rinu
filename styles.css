@@ -7,10 +7,10 @@
 .main-content__title {
   font-family: "pt_serif", arial, helvetica, sans-serif;
   font-weight: bold;
-  font-size: 410%;
+  font-size: 436%;
   line-height: 87px;
   font-style: normal;
-  margin: 0 0 40px 0;
+  margin: 0 0 35px 0;
 }
 
 .main-content__title_highlight {
@@ -18,9 +18,9 @@
 }
 
 .main-content {
-  padding-top: 143px;
+  padding-top: 13%;
   padding-right: 63%;
-  padding-bottom: 181px;
+  padding-bottom: 16%;
   background: url('img/frame.svg');
   background-size: 50% auto;
   background-repeat: no-repeat;
@@ -110,15 +110,15 @@ body {
 }
 
 .main-content__description {
-  margin: 0 0 41px 0;
+  margin: 0 0 60px 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 140%;
+  font-size: 137%;
   line-height: 26px;
 }
 
 .main-content__button {
-  padding: 14px 20px;
+  padding: 19px 30px;
   color: #fff;
   text-decoration: none;
   background: #0056ec;
