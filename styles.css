@@ -7,10 +7,12 @@
 .main-content__title {
   font-family: "pt_serif", arial, helvetica, sans-serif;
   font-weight: bold;
-  font-size: 436%;
+  font-size: 434%;
   line-height: 87px;
   font-style: normal;
-  margin: 0 0 35px 0;
+  margin: 0 0 35px 3px;
+  padding-top: 15px;
+  letter-spacing: 1px;
 }
 
 .main-content__title_highlight {
@@ -18,13 +20,14 @@
 }
 
 .main-content {
-  padding-top: 13%;
   padding-right: 63%;
-  padding-bottom: 14%;
+  padding-top: 12%;
+  height: 60vh;
+  width: auto;
   background: url('img/frame.svg');
-  background-size: 50% auto;
   background-repeat: no-repeat;
-  background-position: center right;
+  background-position-y: 72%;
+  background-position-x: 99%;
 }
 
 body {
@@ -34,6 +37,7 @@ body {
 .wrapper {
   margin: auto;
   width: 80%;
+  height: 100vh;
 }
 
 .logo,
@@ -44,25 +48,27 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  padding: 3% 0 3% 0;
+  padding: 40px 0 3% 0;
 }
 
 .logo {
   position: relative;
-  padding-left: 44px;
+  padding-left: 45px;
+  margin-left: 4px;
 }
 
 .logo__text {
   font-family: "pt_serif", arial, helvetica, sans-serif;
   font-weight: bold;
   font-size: 24px;
-  line-height: 31px;
+  line-height: 32px;
+  letter-spacing: 1px;
 }
 
 .logo__circle {
   position: absolute;
   transform: translateY(-50%);
-  top: 50%;
+  top: 44%;
   left: 0;
   width: 28px;
   height: 28px;
@@ -72,7 +78,7 @@ body {
 
 .logo__circle_color_blue {
   left: 8px;
-  top: 56%;
+  top: 67%;
   background: #c8dbfb;
 }
 
@@ -83,10 +89,10 @@ body {
 .menu {
   display: flex;
   align-items: center;
+  padding-top: 6px;
 }
 
 .menu__item {
-  margin-right: 26px;
   font-size: 18px;
   line-height: 21px;
   font-weight: 500;
@@ -95,8 +101,24 @@ body {
   position: relative;
 }
 
+.menu__item-start {
+  margin-right: 28px;
+}
+
+.menu__item-services {
+  margin-right: 25px;
+}
+
+.menu__item-about {
+  margin-right: 29px;
+}
+
+.menu__item-blog {
+  margin-right: 30px;
+}
+
 .menu__item:last-child {
-  margin-right: 0;
+  margin-right: 11px;
 }
 
 .menu__item:hover::after {
@@ -110,15 +132,15 @@ body {
 }
 
 .main-content__description {
-  margin: 0 0 60px 0;
+  margin: 0 0 60px 3px;
   font-style: normal;
   font-weight: normal;
-  font-size: 137%;
+  font-size: 136%;
   line-height: 26px;
 }
 
 .main-content__button {
-  padding: 19px 30px;
+  padding: 19px 19px;
   color: #fff;
   text-decoration: none;
   background: #0056ec;
@@ -127,6 +149,8 @@ body {
   font-size: 110%;
   line-height: 21px;
   transition: 0.3s;
+  margin-left: 4px;
+  letter-spacing: 1px;
 }
 
 .main-content__button:hover {
