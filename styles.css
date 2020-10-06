@@ -176,11 +176,11 @@ body {
   }
 
   .logo {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .menu__item-start {
-      margin-right: 26px;
+    margin-right: 26px;
   }
 
   .menu__item-services {
@@ -223,7 +223,7 @@ body {
     font-size: 110%;
     line-height: 21px;
     font-weight: 500;
-    letter-spacing: 0px;
+    letter-spacing: 0;
   }
 
   .main-content__button {
@@ -234,6 +234,25 @@ body {
     padding: 15px 17px;
     margin-left: 0px;
     letter-spacing: 1px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    width: 91%;
+  }
+
+  .menu__item:last-child {
+    margin-right: 1px;
+  }
+
+  .main-content__title {
+    margin-left: 1px;
+  }
+
+  .main-content__description {
+    margin-left: 0;
+    font-size: 113%;
   }
 }
 
