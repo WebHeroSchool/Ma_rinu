@@ -240,6 +240,27 @@ body {
   }
 }
 
+@media (max-width: 1287px) {
+  .main-content__title {
+    font-size: 282%;
+  }
+
+  .main-content{
+    height: 51vh;
+  }
+}
+
+@media (max-width: 1170px) {
+  .main-content__title {
+    font-size: 255%;
+    line-height: 56px;
+  }
+
+  .main-content{
+    height: 43vh;
+  }
+}
+
 @media (max-width: 1024px) {
   .wrapper {
     width: 91%;
