@@ -266,6 +266,10 @@ body {
     width: 91%;
   }
 
+  .main-content {
+    height: 57vh;
+  }
+
   .menu__item:last-child {
     margin-right: 1px;
   }
@@ -273,6 +277,8 @@ body {
   .main-content__title {
     margin-left: 1px;
     margin-bottom: 8.1%;
+    font-size: 310%;
+    line-height: 66px;
   }
 
   .main-content__description {
